@@ -7,7 +7,7 @@ public class AddTwo {
   int secondNumber;
    firstNumber = Integer.parseInt(args[0]);
    secondNumber = Integer.parseInt(args[1]);
-    System.out.println(firstNumber + " + " + secondNumber + " " + " = " + " " + (firstNumber + secondNumber));
+    System.out.println(firstNumber + " + " + secondNumber + " = " + (firstNumber + secondNumber));
 		
 	}
 }
