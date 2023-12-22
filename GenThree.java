@@ -6,7 +6,7 @@ public class GenThree {
 	public static void main(String[] args) {
 	 int B = Integer.parseInt(args[0]);
          int U = Integer.parseInt(args[1]);
-         int N = (U - B); 
+         int N = (U - B + 1); 
       double r = Math.random();
       int n = (int) ((r * N) + B);
       double r2 = Math.random();
