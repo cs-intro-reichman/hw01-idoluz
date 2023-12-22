@@ -18,7 +18,7 @@ public class GenThree {
        System.out.println(n3);
       int min = Math.min(n,n2);
        min = Math.min(min,n3);
-      System.out.println( "The minimum random is "); 
+      System.out.println( "The minimum random is"); 
       System.out.println(min);	
 	}
 }
