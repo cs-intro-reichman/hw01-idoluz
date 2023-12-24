@@ -14,9 +14,7 @@ public class GenThree {
       double r3 = Math.random();
       int n3 = (int) ((r3 * N) + B);
       // generated 3 random numbers within the given range
-       System.out.println(n);
-       System.out.println(n2);
-       System.out.println(n3);
+       System.out.println(n +"\n" + n2 + "\n" + n3);
       int min = Math.min(n,n2);
        min = Math.min(min,n3);
        // finding the minimun value between the 3 generated numbers
