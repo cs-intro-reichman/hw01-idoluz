@@ -20,7 +20,7 @@ public class GenThree {
       int min = Math.min(n,n2);
        min = Math.min(min,n3);
        // finding the minimun value between the 3 generated numbers
-      System.out.println( "The minimum random is " + min); 
-      System.out.println(min);	
+      System.out.println( "The minimum random number is " + min); 
+      
 	}
 }
