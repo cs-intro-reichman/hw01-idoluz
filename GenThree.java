@@ -6,7 +6,7 @@ public class GenThree {
 	public static void main(String[] args) {
 	 int B = Integer.parseInt(args[0]);
          int U = Integer.parseInt(args[1]);
-         int N = (U - B + 1); // creating a range from the lower boundary to the upper boundary
+         int N = (U - B); // creating a range from the lower boundary to the upper boundary
       double r = Math.random();
       int n = (int) ((r * N) + B);
       double r2 = Math.random();
